@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook - Connect with Friends</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      color: #1c1e21;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .logo {
+      height: 40px;
+    }
+    nav button {
+      margin-left: 1rem;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.3s ease;
+    }
+    .login-btn {
+      background: none;
+      color: #1877f2;
+    }
+    .signup-btn,
+    .cta-primary {
+      background: #1877f2;
+      color: white;
+    }
+    .signup-btn:hover,
+    .cta-primary:hover {
+      background: #145dbf;
+    }
+    main {
+      padding: 2rem;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+    .hero-text h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .hero-text p {
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ffffff;
+      font-size: 0.9rem;
+      color: #65676b;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav button {
+        padding: 0.5rem 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" class="logo"/>
+    <nav>
+      <button class="login-btn">Log In</button>
+      <button class="signup-btn">Sign Up</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Connect with friends and the world around you</h1>
+        <p>Share your moments. Discover what's happening. Join the conversation today on Facebook.</p>
+        <button class="cta-primary">Create New Account</button>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="People connecting"/>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Facebook Redesign. For educational purposes only.</p>
+  </footer>
+</body>
+</html>
