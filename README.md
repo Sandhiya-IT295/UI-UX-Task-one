@@ -1,6 +1,6 @@
 **Company:CODTECHIT SOLUTIONS
-Name:SANDHIYA J Intern
-ID:CT04DG2135
+Name:SANDHIYA J 
+Intern ID:CT04DG2135
 Domain:UI/UX
 Batch duration:17June2025-17July2025
 Mentor name:Neela Santhosh Kumar**
